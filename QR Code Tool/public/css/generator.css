@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    background-color: white;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px black;
+}
+#main h2{
+    color: blueviolet;
+}
+#main p{
+    margin-top: 60px;
+    font-size: 18px;
+}
+#textbox{
+    height: 100px;
+    width: 250px;
+    font-size: 18px;
+}
+#sb{
+    margin-top: 50px;
+    color: white;
+    background-color: blue;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+@media screen and (max-width:550px){
+    #main{
+        width: 80%;
+
+    }
+    #textbox{
+        width: 70%;
+    }
+}

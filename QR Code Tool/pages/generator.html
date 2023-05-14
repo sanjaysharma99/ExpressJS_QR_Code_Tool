@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QR Code Generator</title>
+        <link href="http://localhost:3000/css/generator.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="main">
+            <h2>QR Code Generator</h2>
+            <p>Please enter information in below box.</p>
+            <form action="http://localhost:3000/generate" method="post">
+                <textarea id="textbox" name="info"></textarea><br/>
+                <input type="submit" value="Generate" id="sb"/>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QR Code Decoder</title>
+        <link href="http://localhost:3000/css/decoder.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="main">
+            <h1>QR Code Decoder</h1>
+            <form action="http://localhost:3000/decode" enctype="multipart/form-data" method="POST">
+                <label for="upload" id="uploadbox">
+                    <p>Drop files here</p>
+                    <p>OR</p>
+                    <input type="file" id="upload" name="file" multiple>
+                </label>
+                <input type="submit" id="sb" value="Decode">
+            </form>
+        </div>
+    </body>
+</html>

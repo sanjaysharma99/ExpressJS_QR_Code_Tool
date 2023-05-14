@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Download</title>
+        <link href="http://localhost:3000/css/download.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="main">
+            <h2>Your QR Code is Ready</h2>
+            <p>You can download your QR code by below download button.</p>
+            <img src="http://localhost:3000/images/qrback.jpg" alt="QR"/><br/>
+            <form action="http://localhost:3000/download" method="post">
+                <button id="btn" type="submit">Download</button>
+            </form>
+            <button id="btn" onclick="window.open('http://localhost:3000')">Home</button>
+        </div>
+    </body>
+</html>
